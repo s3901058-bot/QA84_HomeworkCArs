@@ -7,6 +7,7 @@ public class Cars implements Comparable<Cars>{
 
 
     public Cars(String model, int year, int regNumber) {
+        super();
         this.model = model;
         this.year = year;
         this.regNumber = regNumber;
