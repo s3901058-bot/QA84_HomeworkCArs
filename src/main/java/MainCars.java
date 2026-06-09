@@ -28,7 +28,7 @@ public class MainCars {
         tars.add(c9);
         tars.add(c10);
         PrintCarsTet(tars);
-        System.out.println("tttttt");
+        System.out.println("TreeSet");
 
         HashSet<Cars> cars = new HashSet<>();
         cars.add(c1);
@@ -41,6 +41,7 @@ public class MainCars {
         cars.add(c8);
         cars.add(c9);
         cars.add(c10);
+        System.out.println("HashSet");
         PrintCars(cars);
 
 
